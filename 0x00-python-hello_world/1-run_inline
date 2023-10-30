@@ -1,3 +1,2 @@
 #!/usr/bin
-
-echo $PYCODE | python3
+python3 -c "$PYCODE"

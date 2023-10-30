@@ -4,4 +4,4 @@ str1 = "Welcome to "
 str2 = "Holberton School!"
 
 # Print the string without using any loops or conditional statements.
-print(f"{str1}{str2}")
+print(str1,str2)

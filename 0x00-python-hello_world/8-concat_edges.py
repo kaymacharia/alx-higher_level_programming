@@ -1,2 +1,9 @@
 #!/usr/bin/python3
-print("object-" + "oriented-" + "programming-" + "with-" + "Python\n", end="")
+
+string = "object-"
+string += "oriented-"
+string += "programming-"
+string += "with-"
+string += "Python"
+
+print(string, end="")

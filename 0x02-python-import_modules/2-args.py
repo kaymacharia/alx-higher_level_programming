@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 from sys import argv
 
- """Prints the argument list passed to the program """
-
 def principal():
     print('{} argument'.format(len(argv) - 1), end='')
     if len(argv) == 1:

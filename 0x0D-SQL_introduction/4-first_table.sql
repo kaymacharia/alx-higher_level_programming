@@ -1,5 +1,4 @@
---Establishes a table in the present database
---Query to generate a table named first_table within the current database on your MySQL server.
-CREATE TABLE IF NOT EXISTS first_table (
-id INT,
+-- creates a tabel first_table in current db
+-- does not fail if table exists
+CREATE TABLE IF NOT EXISTS first_table (id INT,
 name VARCHAR(256));

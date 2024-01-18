@@ -1,3 +1,3 @@
---Displays all tables within a database
---Query to show all tables in a database
+-- list all the tables of database passed
+-- as argument of mysql command
 SHOW TABLES;

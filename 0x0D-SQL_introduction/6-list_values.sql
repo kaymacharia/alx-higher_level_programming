@@ -1,3 +1,3 @@
---Displays all entries in a table
---Shows all records in the first_table of the hbtn_0c_0 database.
+-- lists all rows of the table first_table
+-- from the database hbtn_0c_0
 SELECT * FROM first_table;

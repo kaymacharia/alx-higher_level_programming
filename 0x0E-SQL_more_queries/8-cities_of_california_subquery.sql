@@ -1,9 +1,9 @@
---Script for displaying all the cities in California recorded in the database.
---Query to enumerate all the cities belonging to California.
-
-SELECT id, name 
-FROM cities
-WHERE state_id = ( -- Query to get the id of California
-      SELECT id
-      FROM states
-      WHERE name = "California");
+-- Lists all cities of CA in the database hbtn_0d_usa.
+-- Results are ordered by ascending cities.id.
+SELECT `id`, `name`
+  FROM `cities`
+ WHERE `state_id` IN
+       (SELECT `id`
+	  FROM `states`
+	 WHERE `name` = "California")
+ ORDER BY `id`;

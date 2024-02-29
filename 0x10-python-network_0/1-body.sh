@@ -1,3 +1,3 @@
 #!/bin/bash
 #Displays 200 status code response
-curl -s "$url"
+curl -sL $1
